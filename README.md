@@ -26,16 +26,16 @@
 
 ### 三、训练步骤
 #### 1. config.yaml配置文件中需要修改的参数：
-Train:
-    epochs:               训练迭代次数，根据需要修改 
-    batch_size:           根据显存调整 
-    root：                训练集存放路径
-    split:                训练集和验证集分割比例
-IETNet:
-    loc_size:             三维数据维度  
-    n_heads:              多头注意力机制头个数
-    n_layers:             ImpFormer Encoder个数
-    Time_Length:          时序数
+    Train:
+        epochs:               训练迭代次数，根据需要修改 
+        batch_size:           根据显存调整 
+        root：                训练集存放路径
+        split:                训练集和验证集分割比例
+    IETNet:
+        loc_size:             三维数据维度  
+        n_heads:              多头注意力机制头个数
+        n_layers:             ImpFormer Encoder个数
+        Time_Length:          时序数
 
 #### 2.训练IETNet
     将训练集存放至root所在路径
