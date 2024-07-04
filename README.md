@@ -3,13 +3,13 @@ Fast Algorithm Based on Deep Learning for FDTD 3D Implicit Solution Correction N
 
 The full code will be open source after the publication of the paper. If you have any questions, please contact at lhl_hit@163.com
 
-### 一、Introduction
+### I、Introduction
     IETNet adopts an end-to-end training approach and the network consists of two modules:
      1. 3D Spatial Information Perception Module (3D-SIP) 
          The input format of the original 3D data is: (time phase, H*W*L, 4(X,Y,Z,F))
      2. Implicit Transformer (ImpFormer)
          The output format of the predicted data is: (time phase, H*W*L)
- ### 二、Function of Each File 
+ ### II、Function of Each File 
  #### 1.utils:  Stores custom-written functions 
     data_processing.py:     Used for data reading
     train_epoch_iet.py: Used for training IETNet
@@ -27,7 +27,7 @@ The full code will be open source after the publication of the paper. If you hav
     test.py: Used for final testing to obtain correction results
     config.yaml: Parameter and basic network configuration settings
     README.md: Documentation file
-### 三、Training Steps
+### III、Training Steps
 #### 1. Parameters to modify in the config.yaml 
     Train:
         epochs: Number of training iterations, modify as needed
@@ -46,7 +46,7 @@ The full code will be open source after the publication of the paper. If you hav
     Set the network batch_size to 16 and epochs to 50
     Upon completion of training, the model IETNet.pkl will be obtained
 
-### 四、Testing Steps
+### IV、Testing Steps
      Run test.py
     Modify file_input and file_output to the paths of the test data
     Modify file_predict to the path where the test data results will be saved
