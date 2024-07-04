@@ -1,0 +1,12 @@
+numpy==1.24.4
+oauthlib==3.2.2
+Pillow==10.0.0
+tensorboard==2.13.0
+tensorboard-data-server==0.7.1
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchvision==0.9.1+cu102
+tqdm==4.65.0
+scipy==1.10.1
+pyyaml
+setuptools==56.1.0
