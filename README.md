@@ -1,7 +1,7 @@
 ## On Improving Accuracy of Implicit FDTD Methods with Transformer-based Deep Learning Network
 Fast Algorithm Based on Deep Learning for FDTD 3D Implicit Solution Correction Network (IETNet)
 
-The full code will be open source after the publication of the paper. If you have any questions, please contact at lhl_hit@hotmail.com
+The full code will be open source after the publication of the paper. If you have any questions, please contact at lhl_hit@163.com
 
 ### 一、Introduction
     IETNet adopts an end-to-end training approach and the network consists of two modules:
@@ -56,7 +56,7 @@ The full code will be open source after the publication of the paper. If you hav
 
 
 ***********************************************************************************************
-  Chinese Version
+       Chinese Version ↓
 ***********************************************************************************************
 ## 基于深度学习的快速算法到FDTD三维隐式解校正网络(IETNet)
 ### 一、IETNet简介
