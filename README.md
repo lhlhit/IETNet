@@ -109,5 +109,5 @@ The full code will be open source after the publication of the paper. If you hav
     修改file_input和file_output为测试数据路径
     修改file_predict为测试数据结果保存路径
     修改length为测试数据时序长度
-    输出loss(采用L1损失）![image](https://github.com/yikuaixigua/IETNet/assets/52653618/9fb68767-02b7-4c27-9d56-fd7f16bc3bb7)
+    输出loss(采用L1损失）
 
