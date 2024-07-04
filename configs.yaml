@@ -1,0 +1,32 @@
+# _*_ coding:utf-8 _*_
+#模型配置
+IETNet:
+  loc_size: 73416   # 输入三维数据维度 73416 73696 75012
+  dim_model: 384
+  n_heads:  6     # MSA多头个数
+  n_layers: 2      # encoder个数
+  dropout:  0.1
+  scale:    1
+  Time_Length: 250
+
+#训练配置
+Train:
+  epochs:            30
+  batch_size:        1
+  n_worker:          1 #加载数据（batch）的线程数目
+  lr:                0.001     # 学习率
+  optimizer:        'adamw'    # 优化器类型
+  weight_decay:      0.00001   # 优化器衰减
+  scheduler_step:    12    # 优化器step衰减
+  scheduler_gamma:   0.25  # 优化器gamma衰减
+  resume:            ''        # 加载预训练权重的文件
+  predict_model:     'checkpoints/z.pkl'       # 预测模型
+
+#训练数据配置
+Data:
+  root:              'H:\beifen\904\sure\data\0921'    #训练数据集根目录
+  split:              0.7           # 训练集比例
+  in_label:           'Hx'
+  out_label:          'Hx'
+
+
